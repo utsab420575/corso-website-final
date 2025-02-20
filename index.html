@@ -79,7 +79,7 @@
 
 <!--Header-->
 <!-- Header Section -->
-<div class="header">
+<header class="header">
     <!-- Hero Section with Full-Screen Height -->
     <div class="hero py-7 vh-100"> <!-- py-7: Vertical padding, vh-100: Full viewport height -->
         <div class="container"> <!-- Bootstrap container for centering content -->
@@ -119,7 +119,7 @@
                 <div class="col-12"> <!-- Full-width column to hold the carousel -->
 
                     <!-- Image Slider -->
-                    <div id="slider" class="carousel slide"> <!-- Bootstrap carousel with sliding transition -->
+                    <div id="slider" class="carousel slide" data-bs-ride="carousel"> <!-- Bootstrap carousel with sliding transition -->
 
                         <!-- Carousel Indicators (Dots) -->
                         <!--'active' makes this the default slide-->
@@ -186,8 +186,629 @@
             </div>
         </div>
     </div>
-</div>
+</header>
 
+
+<!--Register Section-->
+<section class="register bg-primary py-6 overflow-hidden">
+    <!-- 'bg-primary': Sets the background color to the primary theme color -->
+    <!-- 'py-6': Adds padding on the top and bottom (6 units) -->
+    <!-- 'overflow-hidden': Prevents content from overflowing the container -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds padding -->
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-lg-6">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <h2>Unlock Your Potential with Engaging Content</h2>
+                <p>
+                    Our wide range of training and seminar videos are designed to
+                    empower you with valuable knowledge and skills.
+                </p>
+
+                <!-- Unordered List with Icons -->
+                <ul class="list-unstyled vstack gap-3">
+                    <!-- 'list-unstyled': Removes default list styling (bullets) -->
+                    <!-- 'vstack': Creates a vertical stack layout -->
+                    <!-- 'gap-3': Adds spacing (3 units) between list items -->
+                    <li>
+                        <i class="fas fa-square"></i> <!-- Font Awesome square icon -->
+                        <strong>Gain Expertise:</strong> Our videos provide in-depth
+                        insights and practical tips to enhance your expertise in various
+                        domains.
+                    </li>
+                    <li>
+                        <i class="fas fa-square"></i>
+                        <strong>Stay Updated:</strong> Stay up-to-date with the latest
+                        industry trends and advancements through our informative and
+                        up-to-date videos.
+                    </li>
+                    <li>
+                        <i class="fas fa-square"></i>
+                        <strong>Expand Your Network:</strong> Connect with like-minded
+                        individuals and industry experts, fostering new connections and
+                        opportunities.
+                    </li>
+                </ul>
+            </div>
+
+            <!--Form Section-->
+            <div class="col-lg-6 p-4">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <!-- 'p-4': Adds padding (4 units) around the form -->
+                <form>
+                    <!-- Form Input Fields -->
+                    <div class="my-4">
+                        <!-- 'my-4': Adds margin (4 units) on the top and bottom -->
+                        <input type="text"
+                               class="form-control form-control-lg rounded-0 border-0"
+                               placeholder="Enter name">
+                        <!-- 'form-control': Styles the input field -->
+                        <!-- 'form-control-lg': Makes the input field larger -->
+                        <!-- 'rounded-0': Removes rounded corners -->
+                        <!-- 'border-0': Removes the border -->
+                    </div>
+                    <div class="my-4">
+                        <input type="email"
+                               class="form-control form-control-lg rounded-0 border-0"
+                               placeholder="Enter email">
+                    </div>
+                    <div class="my-4">
+                        <input type="text"
+                               class="form-control form-control-lg rounded-0 border-0"
+                               placeholder="Enter phone number">
+                    </div>
+
+                    <!-- Checkbox for Terms and Conditions -->
+                    <div class="form-check">
+                        <!-- 'form-check': Styles the checkbox and label -->
+                        <input type="checkbox"
+                               class="form-check-input"
+                               value="">
+                        <!-- 'form-check-input': Styles the checkbox -->
+                        <label for="terms" class="form-check-label">
+                            I agree to the terms and conditions
+                        </label>
+                        <!-- 'form-check-label': Styles the label -->
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid mt-4">
+                        <!-- 'd-grid': Makes the button a block-level element that spans the full width -->
+                        <!-- 'mt-4': Adds margin (4 units) on the top -->
+                        <button class="btn btn-outline-dark">Register</button>
+                        <!-- 'btn': Styles the button -->
+                        <!-- 'btn-outline-dark': Adds an outline style with dark color -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Details 1-->
+<!--Details 1 Section-->
+<section id="discover" class="details py-6 bg-light">
+    <!-- 'id="discover"': Unique identifier for the section -->
+    <!-- 'class="details"': Custom class for styling -->
+    <!-- 'py-6': Adds padding (6 units) on the top and bottom -->
+    <!-- 'bg-light': Sets the background color to a light theme color -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-lg-6">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <img src="images/instructor.jpg" alt="" class="img-fluid rounded-5 mb-4">
+                <!-- 'img-fluid': Makes the image responsive (scales with the container) -->
+                <!-- 'rounded-5': Applies large rounded corners to the image -->
+                <!-- 'mb-4': Adds margin (4 units) at the bottom of the image -->
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <!-- 'd-flex': Enables flexbox layout -->
+                <!-- 'flex-column': Stacks child elements vertically -->
+                <!-- 'justify-content-center': Centers child elements vertically -->
+                <h2>Enhance Your Skills with Engaging Training Videos</h2>
+                <p>
+                    Our extensive collection of training videos is designed to help
+                    you enhance your skills and excel in your chosen field. Whether
+                    you're looking to improve your technical expertise or develop
+                    essential soft skills, our videos provide valuable insights and
+                    practical knowledge.
+                </p>
+                <p>
+                    With expert instructors and comprehensive content, you'll gain the
+                    confidence and competence to tackle challenges and achieve
+                    success.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Points Section-->
+<section class="points pb-5">
+    <!-- 'points': Custom class for styling -->
+    <!-- 'pb-5': Adds padding (5 units) at the bottom -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row text-center mb-5">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <!-- 'text-center': Centers the text horizontally -->
+            <!-- 'mb-5': Adds margin (5 units) at the bottom -->
+            <div class="col-md-8 offset-md-2">
+                <!-- 'col-md-8': Creates a column that takes 8 out of 12 columns on medium screens -->
+                <!-- 'offset-md-2': Adds a left margin of 2 columns on medium screens -->
+                <h2>Unlock Your Potential with Engaging Training Videos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-md-6 mb-4">
+                <!-- 'col-md-6': Creates a column that takes 6 out of 12 columns on medium screens -->
+                <!-- 'mb-4': Adds margin (4 units) at the bottom -->
+                <div class="d-flex gap-3">
+                    <!-- 'd-flex': Enables flexbox layout -->
+                    <!-- 'gap-3': Adds spacing (3 units) between child elements -->
+                    <div class="number">
+                        <!-- 'number': Custom class for styling -->
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">
+                            <!-- 'bg-primary': Sets the background color to the primary theme color -->
+                            <!-- 'py-2': Adds padding (2 units) on the top and bottom -->
+                            <!-- 'px-4': Adds padding (4 units) on the left and right -->
+                            <!-- 'fs-3': Sets the font size to a large size -->
+                            <!-- 'rounded-circle': Makes the element a circle -->
+                            1
+                        </span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Enhance Your Skills</h3>
+                        <!-- 'fs-4': Sets the font size to a medium size -->
+                        <p>
+                            Our training videos provide comprehensive insights and
+                            practical tips to help you enhance your skills in various
+                            domains. From technical expertise to soft skills, we've got
+                            you covered.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="d-flex gap-3">
+                    <div class="number">
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">2</span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Stay Updated</h3>
+                        <p>
+                            Keep pace with the latest industry trends and advancements
+                            through our informative and up-to-date videos. Stay ahead of
+                            the curve and broaden your knowledge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="d-flex gap-3">
+                    <div class="number">
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">3</span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Connect with Experts</h3>
+                        <p>
+                            Our platform allows you to connect with like-minded
+                            individuals and industry experts. Expand your network, foster
+                            new connections, and unlock new opportunities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="d-flex gap-3">
+                    <div class="number">
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">4</span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Flexible Learning</h3>
+                        <p>
+                            Our training videos are available on-demand, allowing you to
+                            learn at your own pace and convenience. Access the content
+                            anytime, anywhere, and tailor your learning experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="d-flex gap-3">
+                    <div class="number">
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">5</span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Practical Knowledge</h3>
+                        <p>
+                            Gain practical knowledge and apply it directly to real-world
+                            scenarios. Our videos offer hands-on insights and practical
+                            tips to help you succeed in your professional endeavors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="d-flex gap-3">
+                    <div class="number">
+                        <span class="bg-primary py-2 px-4 fs-3 rounded-circle">6</span>
+                    </div>
+                    <div>
+                        <h3 class="fs-4">Continuous Learning</h3>
+                        <p>
+                            Lifelong learning is key to personal and professional growth.
+                            Explore a vast collection of training videos and embark on a
+                            journey of continuous learning and self-improvement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<!--Course Summary-->
+<!--Course Summary Section-->
+<section id="summary" class="summary bg-light mt-5 w-75 m-auto">
+    <!-- 'id="summary"': Unique identifier for the section -->
+    <!-- 'summary': Custom class for styling -->
+    <!-- 'bg-light': Sets the background color to a light theme color -->
+    <!-- 'mt-5': Adds margin (5 units) at the top -->
+    <!-- 'w-75': Sets the width to 75% of the parent container -->
+    <!-- 'm-auto': Centers the section horizontally -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-12">
+                <!-- 'col-12': Creates a column that takes 12 out of 12 columns (full width) -->
+                <div class="text-center mb-5">
+                    <!-- 'text-center': Centers the text horizontally -->
+                    <!-- 'mb-5': Adds margin (5 units) at the bottom -->
+                    <h2>Course Summary</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-12">
+                <!-- 'col-12': Creates a column that takes 12 out of 12 columns (full width) -->
+                <div class="bg-white p-5">
+                    <!-- 'bg-white': Sets the background color to white -->
+                    <!-- 'p-5': Adds padding (5 units) on all sides -->
+                    <ul class="list-unstyled">
+                        <!-- 'list-unstyled': Removes default list styling (bullets) -->
+                        <li class="border-bottom pb-3">
+                            <!-- 'border-bottom': Adds a border at the bottom -->
+                            <!-- 'pb-3': Adds padding (3 units) at the bottom -->
+                            <h5>1. Comprehensive Training</h5>
+                            <p>
+                                Our courses provide comprehensive training in a wide range
+                                of topics. From beginner-level fundamentals to advanced
+                                concepts, we offer in-depth content to cater to learners of
+                                all levels.
+                            </p>
+                        </li>
+                        <li class="border-bottom pb-3 pt-5">
+                            <h5>2. Expert Instructors</h5>
+                            <p>
+                                Learn from industry experts who bring years of experience
+                                and expertise to the table. Our instructors are passionate
+                                about sharing their knowledge and helping you succeed.
+                            </p>
+                        </li>
+                        <li class="pb-3 pt-5">
+                            <h5>3. Practical Application</h5>
+                            <p>
+                                We believe in practical learning that goes beyond theory.
+                                Our courses focus on real-world application, equipping you
+                                with the skills and knowledge needed to excel in your field.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Details-2-->
+<!--Details-2 Section-->
+<section class="details py-6 bg-light">
+    <!-- 'details': Custom class for styling -->
+    <!-- 'py-6': Adds padding (6 units) on the top and bottom -->
+    <!-- 'bg-light': Sets the background color to a light theme color -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-lg-6">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <img src="images/audience.jpg" alt="" class="img-fluid rounded-5 mb-4">
+                <!-- 'img-fluid': Makes the image responsive (scales with the container) -->
+                <!-- 'rounded-5': Applies large rounded corners to the image -->
+                <!-- 'mb-4': Adds margin (4 units) at the bottom -->
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <!-- 'col-lg-6': Creates a column that takes 6 out of 12 columns on large screens -->
+                <!-- 'd-flex': Enables flexbox layout -->
+                <!-- 'flex-column': Stacks child elements vertically -->
+                <!-- 'justify-content-center': Centers child elements vertically -->
+                <h2>Elevate Your Learning Journey with Expert Seminars</h2>
+                <p>
+                    Join our expert-led seminars and unlock new possibilities in your
+                    personal and professional development. Our seminars cover a
+                    diverse range of topics, from leadership and innovation to
+                    personal growth and productivity.
+                </p>
+                <p>
+                    Immerse yourself in engaging discussions, interactive workshops,
+                    and valuable networking opportunities.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Invitation Section-->
+<section class="invitation mb-5 bg-light">
+    <!-- 'mb-5': Adds margin (5 units) at the bottom -->
+    <!-- 'bg-light': Sets the background color to light -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <div class="col-12">
+                <!-- 'col-12': Full-width column -->
+                <div class="invitation-bg text-center py-6 rounded-5">
+                    <!-- 'text-center': Centers text horizontally -->
+                    <!-- 'py-6': Adds padding (6 units) on top and bottom -->
+                    <!-- 'rounded-5': Applies large rounded corners -->
+                    <div class="text-white w-75 m-auto">
+                        <!-- 'text-white': Sets text color to white -->
+                        <!-- 'w-75': Sets width to 75% of parent -->
+                        <!-- 'm-auto': Centers the div horizontally -->
+                        <h2 class="display-5 fw-bold">Join Us On December 22nd</h2>
+                        <!-- 'display-5': Large heading size -->
+                        <!-- 'fw-bold': Makes text bold -->
+                        <p>
+                            We cordially invite you to attend a seminar on December 22nd...
+                        </p>
+                        <a href="#register" class="btn btn-primary btn-lg">
+                            <!-- 'btn': Styles the button -->
+                            <!-- 'btn-primary': Primary theme color -->
+                            <!-- 'btn-lg': Large button size -->
+                            Register Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Takeaways -->
+<!-- Takeaways Section -->
+<section id="takeaways" class="takeaways my-5 bg-light">
+    <!-- 'my-5': Adds margin (5 units) on top and bottom -->
+    <!-- 'bg-light': Sets the background color to light -->
+    <div class="container">
+        <!-- 'container': Centers the content and adds responsive padding -->
+        <div class="row text-center mb-5">
+            <!-- 'row': Creates a Bootstrap row for layout -->
+            <!-- 'text-center': Centers text horizontally -->
+            <!-- 'mb-5': Adds margin (5 units) at the bottom -->
+            <div class="col-md-8 offset-md-2">
+                <!-- 'col-md-8': Creates a column that takes 8 out of 12 columns on medium screens -->
+                <!-- 'offset-md-2': Adds a left margin of 2 columns on medium screens -->
+                <h2>Key Takeaways</h2>
+                <p class="lead">
+                    <!-- 'lead': Makes the paragraph stand out with larger font size -->
+                    Here are some of the takeaways and benefits you can expect from
+                    our programs.
+                </p>
+            </div>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-4">
+                <!-- 'col-md-4': Creates a column that takes 4 out of 12 columns on medium screens -->
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <!-- 'card': Bootstrap card component -->
+                    <!-- 'mb-4': Adds margin (4 units) at the bottom -->
+                    <!-- 'rounded-0': Removes rounded corners -->
+                    <!-- 'border-0': Removes the border -->
+                    <!-- 'p-3': Adds padding (3 units) on all sides -->
+                    <!-- 'bg-white': Sets the background color to white -->
+                    <div class="card-body text-center">
+                        <!-- 'card-body': Styles the card content area -->
+                        <!-- 'text-center': Centers text horizontally -->
+                        <i class="fas fa-atom fa-3x text-primary bg-light rounded-circle p-3 my-4"></i>
+                        <!-- 'fa-3x': Makes the icon 3 times larger -->
+                        <!-- 'text-primary': Sets the icon color to primary theme color -->
+                        <!-- 'bg-light': Sets the icon background to light -->
+                        <!-- 'rounded-circle': Makes the icon background circular -->
+                        <!-- 'p-3': Adds padding (3 units) on all sides -->
+                        <!-- 'my-4': Adds margin (4 units) on top and bottom -->
+                        <h5 class="card-title">Scientific Insights</h5>
+                        <!-- 'card-title': Styles the card title -->
+                        <p class="card-text">
+                            <!-- 'card-text': Styles the card text -->
+                            Explore the latest scientific research and gain valuable
+                            insights into various subjects, from physics to biology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <div class="card-body text-center">
+                        <i
+                                class="fas fa-key fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                        ></i>
+                        <h5 class="card-title">Cybersecurity Awareness</h5>
+                        <p class="card-text">
+                            Discover the importance of cybersecurity and learn how to
+                            protect yourself and your digital assets from cyber threats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <div class="card-body text-center">
+                        <i
+                                class="fas fa-newspaper fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                        ></i>
+                        <h5 class="card-title">Industry Updates</h5>
+                        <p class="card-text">
+                            Stay informed about the latest news and updates in your
+                            industry, keeping you ahead of the curve and facilitating
+                            professional growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="col-md-4">
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <div class="card-body text-center">
+                        <i
+                                class="fas fa-users fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                        ></i>
+                        <h5 class="card-title">Collaborative Networking</h5>
+                        <p class="card-text">
+                            Connect with professionals from diverse backgrounds and
+                            industries to foster collaboration and expand your
+                            professional network.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <div class="card-body text-center">
+                        <i
+                                class="fas fa-handshake fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                        ></i>
+                        <h5 class="card-title">Partnership Opportunities</h5>
+                        <p class="card-text">
+                            Discover potential partnership opportunities with like-minded
+                            individuals and organizations, opening doors to new
+                            collaborations and ventures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 rounded-0 border-0 p-3 bg-white">
+                    <div class="card-body text-center">
+                        <i
+                                class="fas fa-chart-bar fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                        ></i>
+                        <h5 class="card-title">Data-driven Insights</h5>
+                        <p class="card-text">
+                            Leverage data analytics to gain valuable insights and make
+                            informed decisions, unlocking new possibilities for growth and
+                            success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Subscribe Form -->
+<section id="subscribe" class="subscribe my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <h2>
+                    Subscribe to our email list and get updates from the experts
+                </h2>
+                <form>
+                    <div class="my-4">
+                        <input
+                                type="email"
+                                class="form-control form-control-lg"
+                                placeholder="Enter email"
+                        />
+                        <div class="form-text">
+                            We will never share your email address
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer mt-4 text-bg-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Lorem Ipsum</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+                    possimus aliquid omnis commodi. Dignissimos, quam obcaecati? Fugit
+                    non ex repellendus?
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#takeaways">Takeaways</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Connect</h5>
+                <div class="d-flex gap-3">
+                    <a href="#"><i class="fab fa-facebook fa-3x text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-3x text-white"></i></a>
+                    <a href="#"><i class="fab fa-linkedin fa-3x text-white"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-3x text-white"></i></a>
+                    <a href="#"><i class="fab fa-youtube fa-3x text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/script.js"></script>
 </body>

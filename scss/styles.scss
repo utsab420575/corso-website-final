@@ -14,3 +14,62 @@
   width: 70%;
   margin: 0 auto;
 }
+
+
+.navbar {
+  /* Adds a smooth transition effect to all animatable properties of the navbar */
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Media query for screens with a maximum width of 992px (typically tablets and smaller devices) */
+@media (max-width: 992px) {
+  /* Navbar styling for smaller screens */
+  .navbar {
+    background: var(--bs-dark); /* Sets the navbar background to dark using Bootstrap's dark theme variable */
+  }
+
+  /* Header section adjustments for smaller screens */
+  .header {
+    height: 800px !important; /* Forces the header height to 800px */
+    min-height: 800px !important; /* Ensures the header has a minimum height of 800px */
+  }
+
+  /* Slide container adjustments for smaller screens */
+  .header .slide {
+    width: 90%; /* Sets the slide width to 90% of its container */
+    margin: 0 auto; /* Centers the slide horizontally */
+  }
+
+  /* Text container adjustments for smaller screens */
+  .header .text-container p {
+    width: 100% !important; /* Forces the paragraph to take up the full width of its container */
+    font-size: 16px; /* Sets the font size to 16px */
+  }
+
+  /* Register section adjustments for smaller screens */
+  .register {
+    padding: 40px 0 !important; /* Adds vertical padding (40px) to the register section */
+  }
+
+  /* Register heading adjustments for smaller screens */
+  .register h2 {
+    text-align: center; /* Centers the heading text horizontally */
+  }
+
+  /* Summary section adjustments for smaller screens */
+  .summary {
+    margin-top: 0 !important; /* Removes the top margin */
+    width: 90% !important; /* Sets the width to 90% of its container */
+  }
+}
+
+.invitation-bg {
+  background: linear-gradient(
+                  to bottom right,
+                  rgba(0, 0, 0, 0.8),
+                  rgba(0, 0, 0, 0.8)
+  ),
+  url('../images/invitation-background.jpg') center center no-repeat;
+  background-size: cover;
+}
